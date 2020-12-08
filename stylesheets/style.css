@@ -1,0 +1,223 @@
+@import "reset.css";
+@import url(https://allfont.ru/allfont.css?fonts=pragmatica);
+
+
+.list1 {
+  height: 915px;
+}
+.header {
+  height: 33%;
+}
+.rectangle_blue {
+  height:164px;
+  background: #282F96;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+.arrow1 {
+  width: 24.6%;
+  height: auto;
+  max-height: 120px;
+  position: absolute;
+  top: 13.3%;
+  left: 45.1%;
+}
+.arrow2 {
+  width: 24.6%;
+  height: auto;
+  max-height: 120px;
+  position: absolute;
+  top: 13.3%;
+  left: 73.5%;
+}
+.text {
+  font-family: Pragmatica;
+  font-size: 7.6vw;
+}
+.text h1 {
+  position: absolute;
+  left: 2.4%;
+  top: 17%;
+  color: #D1D1D1;
+}
+.rectangle_orange {
+  height: 134px;
+  background: #F59C07;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+.text h2 {
+  position: absolute;
+  left: 2.4%;
+  top: 9%;
+  color: black;
+}
+.main {
+  position: relative;
+  height: 67%;
+}
+.right_rectangle {
+  height: 100%;
+  width: 30.5%;
+  background: #282F96;
+  border-left: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+}
+.pattern {
+  width: 67%;
+  position: absolute;
+  top: 6.5%;
+  right: 16.7%;
+}
+.container {
+  background:#D1D1D1;
+  width: 69.5%;
+  height: 100%;
+  display: inline-block;
+}
+.content {
+  height: 74%;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+.text h3 {
+  position: absolute;
+  top: 3.7%;
+  left: 3.3%;
+  color: black;
+}
+.circle1 {
+  width: 269px;
+  height: 269px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 33%;
+  left: 33%;
+}
+.circle2 {
+  width: 269px;
+  height: 269px;
+  border-radius: 50%;
+  background-color: #282F96;
+  position: absolute;
+  top: 33%;
+  left: 3%;
+}
+.arrow3 {
+  width: 26%;
+  position: absolute;
+  left: 68%;
+  top: 7%;
+}
+.bottom_block {
+  position: relative;
+  height: 25%;
+}
+.text h4 {
+  position: absolute;
+  top: 12%;
+  left: 51%;
+}
+.pattern2 {
+  width: 410px;
+  border-right: 2px solid black;
+}
+.list2 {
+  height: 839px;
+}
+.black_rectangl {
+  height: 32%;
+  background-color: black;
+  position: relative;
+}
+.text2 h5 {
+  font-family: Pragmatica;
+  font-size: 9.7vw;
+  color: #D1D1D1;
+  position: absolute;
+  top: 29%;
+  left: 69.5%;
+}
+.arrow4 {
+  width: 26.7%;
+  position: absolute;
+  top: 29%;
+  left: 3.2%;
+}
+.arrow5 {
+  width: 26.7%;
+  position: absolute;
+  top: 29%;
+  left: 36%;
+}
+.main2 {
+  height: 68.7%;
+  background-color: #D1D1D1;
+  position: relative;
+}
+
+.square1 {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.square2 {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+.square3 {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+.square4 {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 60%;
+}
+.square5 {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 80%;
+}
+
+.square6 {
+  width: 20%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+.square7 {
+  width: 20%;
+  position: absolute;
+  top: 49.8%;
+  left: 20%;
+}
+.square8 {
+  width: 20%;
+  position: absolute;
+  top: 49.8%;
+  left: 40%;
+}
+.square9 {
+  width: 20%;
+  position: absolute;
+  top: 49.8%;
+  left: 60%;
+}
+.square10 {
+  width: 20%;
+  position: absolute;
+  top: 49.8%;
+  left: 80%;
+}
