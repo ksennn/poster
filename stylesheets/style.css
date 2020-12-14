@@ -44,7 +44,7 @@
   left: 73.5%;
 }
 .text {
-  font-family: Pragmatica;
+  font-family: Pragmatica Cyrillic;
   font-size: 110px;
 }
 .text h1 {
@@ -161,7 +161,7 @@
   position: relative;
 }
 .text2 {
-  font-family: Pragmatica;
+  font-family: Pragmatica Cyrillic;
   font-size: 140px;
 }
 .time h3 {
@@ -555,7 +555,7 @@
    left: 9.5%;
  }
  p {
-   font-family: Pragmatica;
+   font-family: Pragmatica Cyrillic;
    font-size: 25px;
    color: black;
  }
