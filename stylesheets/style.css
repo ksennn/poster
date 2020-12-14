@@ -1,5 +1,9 @@
 @import "reset.css";
-@import url(https://allfont.ru/allfont.css?fonts=pragmatica);
+
+@font-face {
+    font-family: Pragmatica; /* Имя шрифта */
+    src: url(fonts/Pragmatica.ttf); /* Путь к файлу со шрифтом */
+   }
 
 * {
   box-sizing: border-box;
