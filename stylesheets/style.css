@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 .big_container {
-  min-width: 1500px;
+  min-width: 1440px;
 }
 .list1 {
   height: 915px;
@@ -42,7 +42,6 @@
 .text {
   font-family: Pragmatica;
   font-size: 110px;
-  font-size: 7.6vw;
 }
 .text h1 {
   position: absolute;
@@ -52,6 +51,7 @@
 }
 .rectangle_orange {
   height: 45.6%;
+  width: 100%;
   background: #F59C07;
   border-bottom: 2px solid black;
   position: relative;
@@ -100,8 +100,8 @@
   color: black;
 }
 .circle1 {
-  width: 18.5vw;
-  height: 18.5vw;
+  width: 269px;
+  height: 269px;
   border-radius: 50%;
   background-color: black;
   position: absolute;
@@ -109,8 +109,8 @@
   left: 45%;
 }
 .circle2 {
-  width: 18.5vw;
-  height: 18.5vw;
+  width: 269px;
+  height: 269px;
   border-radius: 50%;
   background-color: #282F96;
   position: absolute;
@@ -124,21 +124,29 @@
   top: 7%;
 }
 .bottom_block {
+  height: 26%;
+  width: 100%;
+  vertical-align: top;
+}
+.text_ {
+  display: inline-block;
+  width: 58.2%;
+  height: 100%;
   position: relative;
-  height: 25%;
 }
 .text h4 {
   position: absolute;
-  top: 12%;
-  left: 51%;
+  top: 13%;
+  left: 16%;
 }
 .pattern2 {
-  width: 29vw;
+  display: inline-block;
+  width: 41.8%;
+  margin-right: -4px;
   border-right: 2px solid black;
-  overflow: hidden;
-}
+  }
 .pattern2 img {
-  width: 40vw;
+  width: 100%;
 }
 .list2 {
   height: 839px;
@@ -148,9 +156,11 @@
   background-color: black;
   position: relative;
 }
-.text2 h5 {
+.text2 {
   font-family: Pragmatica;
-  font-size: 9.7vw;
+  font-size: 140px;
+}
+.time h3 {
   color: #D1D1D1;
   position: absolute;
   top: 29%;
@@ -231,9 +241,7 @@
 .arrow6 img {
   width: 100%;
 }
-.time h3 {
-  font-family: Pragmatica;
-  font-size: 9.7vw;
+.time2 h3 {
   color: black;
   position: absolute;
   top: 26%;
@@ -267,8 +275,8 @@
   background-color: black;
 }
 .orange_circle {
-  width: 20.5vw;
-  height: 20.5vw;
+  width: 295px;
+  height: 295px;
   border-radius: 50%;
   background-color: #F59C07;
   position: absolute;
@@ -325,8 +333,8 @@
   position: relative;
 }
 .circle-o {
-  width: 10vw;
-  height: 10vw;
+  width: 148px;
+  height: 148px;
   border-radius: 50%;
   background-color: #F59C07;
   position: absolute;
@@ -335,8 +343,6 @@
 
 }
 .street h3 {
-  font-family: Pragmatica;
-  font-size: 7.6vw;
   color: black;
   position: absolute;
   top: 26.5%;
@@ -368,8 +374,6 @@
   border-left: 2px solid black;
 }
 .street2 h3 {
-  font-family: Pragmatica;
-  font-size: 7.6vw;
   word-spacing: -45px;
   color: black;
   position: absolute;
@@ -438,9 +442,6 @@
    position: relative;
  }
  .right_text h3 {
-   font-family: Pragmatica;
-   font-size: 7.6vw;
-   color: black;
    position: absolute;
    top: 23%;
    left: 4.1%;
@@ -518,12 +519,10 @@
    position: relative;
  }
  .name h3 {
-   font-family: Pragmatica;
-   font-size: 7.6vw;
    color: #D1D1D1;
    position: absolute;
-   top: 20%;
-   left: 2.5%;
+   top: 22%;
+   left: 2%;
  }
  .footer {
    height: 31%;
@@ -553,7 +552,7 @@
  }
  p {
    font-family: Pragmatica;
-   font-size: 1.7vw;
+   font-size: 25px;
    color: black;
  }
  .system  {
