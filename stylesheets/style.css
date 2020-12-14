@@ -1,19 +1,14 @@
 @import "reset.css";
 @font-face {
-	font-family: 'Pragmatica Cyrillic';
-  src:url('../fonts/pragmatica_cyrillic.ttf') format('truetype');
-}
+	 font-family: 'Pragmatica', arial;
+   src: url('../fonts/pragmatica.ttf') format('truetype');
+ }
 
 * {
   box-sizing: border-box;
 }
 .big_container {
   min-width: 1440px;
-}
-@media (max-width: 1024px) {
-  .header {
-    height: 50%;
-  }
 }
 .list1 {
   height: 915px;
@@ -44,7 +39,7 @@
   left: 73.5%;
 }
 .text {
-  font-family: 'Pragmatica Cyrillic';
+  font-family: 'Pragmatica', arial;
   font-size: 110px;
 }
 .text h1 {
@@ -161,7 +156,7 @@
   position: relative;
 }
 .text2 {
-  font-family: 'Pragmatica Cyrillic';
+  font-family: 'Pragmatica', arial;
   font-size: 140px;
 }
 .time h3 {
@@ -420,7 +415,7 @@
   margin-right: -4px;
 }
 .list4 {
-  height: 875px;
+  height: 880px;
 }
 .header2 {
   width: 100%;
@@ -457,10 +452,10 @@
    left: 5%;
  }
  .main4 {
-   height: 48%;
+   height: 50%;
  }
  .column1 {
-   height: 59%;
+   height: 55%;
    width: 100%;
    background-color: #D1D1D1;
    border-bottom: 2px solid black;
@@ -498,38 +493,38 @@
    left: 28%;
  }
  .column2 {
-   height: 41%;
+   height: 45%;
    background-color: #282F96;
    border-bottom: 2px solid black;
    vertical-align: top;
  }
  .right_arrow {
    display: inline-block;
-   width: 26%;
+   width: 36%;
    height: 100%;
    margin-right: -4px;
    position: relative;
  }
  .right_arrow img {
-   width: 89%;
+   width: 100%;
    position: absolute;
-   top: 17%;
+   top: 15%;
    left: 8.5%;
  }
  .name {
    display: inline-block;
-   width: 74%;
+   width: 64%;
    height: 100%;
    position: relative;
  }
  .name h3 {
    color: #D1D1D1;
    position: absolute;
-   top: 22%;
-   left: 2%;
+   top: 25%;
+   left: 14%;
  }
  .footer {
-   height: 31%;
+   height: 32%;
    width: 100%;
    background-color: #D1D1D1;
    vertical-align: top;
@@ -555,7 +550,7 @@
    left: 9.5%;
  }
  p {
-   font-family: 'Pragmatica Cyrillic';
+   font-family: 'Pragmatica', arial;
    font-size: 25px;
    color: black;
  }
