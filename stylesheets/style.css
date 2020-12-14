@@ -1,9 +1,8 @@
 @import "reset.css";
 
 @font-face {
-    font-family: Pragmatica; /* Имя шрифта */
-    src: url(fonts/Pragmatica.ttf); /* Путь к файлу со шрифтом */
-   }
+	font-family: 'Pragmatica Cyrillic';
+  src:url('../fonts/pragmatica_cyrillic.ttf') format('truetype');
 
 * {
   box-sizing: border-box;
