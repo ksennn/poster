@@ -1,6 +1,9 @@
 @import "reset.css";
 @import url(https://allfont.ru/allfont.css?fonts=pragmatica);
 
+* {
+  box-sizing: border-box;
+}
 
 .list1 {
   height: 915px;
@@ -9,7 +12,7 @@
   height: 33%;
 }
 .rectangle_blue {
-  height:164px;
+  height: 54.4%;
   background: #282F96;
   border-bottom: 2px solid black;
   position: relative;
@@ -32,16 +35,17 @@
 }
 .text {
   font-family: Pragmatica;
+  font-size: 110px;
   font-size: 7.6vw;
 }
 .text h1 {
   position: absolute;
-  left: 2.4%;
+  left: 2.2%;
   top: 17%;
   color: #D1D1D1;
 }
 .rectangle_orange {
-  height: 134px;
+  height: 45.6%;
   background: #F59C07;
   border-bottom: 2px solid black;
   position: relative;
@@ -49,7 +53,7 @@
 .text h2 {
   position: absolute;
   left: 2.4%;
-  top: 9%;
+  top: 6%;
   color: black;
 }
 .main {
@@ -86,26 +90,26 @@
 .text h3 {
   position: absolute;
   top: 3.7%;
-  left: 3.3%;
+  left: 4.5%;
   color: black;
 }
 .circle1 {
-  width: 269px;
-  height: 269px;
+  width: 18.5vw;
+  height: 18.5vw;
   border-radius: 50%;
   background-color: black;
   position: absolute;
   top: 33%;
-  left: 33%;
+  left: 45%;
 }
 .circle2 {
-  width: 269px;
-  height: 269px;
+  width: 18.5vw;
+  height: 18.5vw;
   border-radius: 50%;
   background-color: #282F96;
   position: absolute;
   top: 33%;
-  left: 3%;
+  left: 5%;
 }
 .arrow3 {
   width: 26%;
@@ -123,8 +127,12 @@
   left: 51%;
 }
 .pattern2 {
-  width: 410px;
+  width: 29vw;
   border-right: 2px solid black;
+  overflow: hidden;
+}
+.pattern2 img {
+  width: 40vw;
 }
 .list2 {
   height: 839px;
@@ -157,67 +165,404 @@
 .main2 {
   height: 68.7%;
   background-color: #D1D1D1;
-  position: relative;
+  margin-top: -6px;
 }
-
+.container_1 {
+  height: 50%;
+  vertical-align: top;
+}
 .square1 {
   width: 20%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  height: 100%;
+  background-color: #282F96;
+  display: inline-block;
+  margin-right: -4px;
+  margin-top: -4px;
+
 }
 .square2 {
   width: 20%;
-  position: absolute;
-  top: 0;
-  left: 20%;
-}
-.square3 {
-  width: 20%;
-  position: absolute;
-  top: 0;
-  left: 40%;
-}
-.square4 {
-  width: 20%;
-  position: absolute;
-  top: 0;
-  left: 60%;
-}
-.square5 {
-  width: 20%;
-  position: absolute;
-  top: 0;
-  left: 80%;
+  display: inline-block;
+  height: 100%;
+  margin-right: -4px;
 }
 
-.square6 {
+.column_1 {
+  width: 100%;
+  height: 33.33%;
+}
+.black-s {
+  width: 33.33%;
+  height: 100%;
+  background-color: black;
+  display: inline-block;
+  margin-right: -4px;
+  /* margin-top: -1px; */
+
+}
+.grey-s {
+  width: 33.33%;
+  height: 100%;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.list3 {
+  height: 957px;
+}
+.header_orange {
+  height: 27.4%;
+  background: #F59C07;
+  position: relative;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.arrow6 {
+  position: absolute;
+  top: 23.5%;
+  left: 31%;
+}
+.arrow6 img {
+  width: 100%;
+}
+.time h3 {
+  font-family: Pragmatica;
+  font-size: 9.7vw;
+  color: black;
+  position: absolute;
+  top: 26%;
+  left: 1%;
+}
+.main3 {
+  height: 72.6%;
+  background-color: #D1D1D1;
+  position: relative;
+}
+.right {
+  width: 26.9%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.left2 {
+  width: 73.1%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-right: -4px;
+}
+.black_square {
+  width: 100%;
+  height: 55.5%;
+  background-color: black;
+}
+.orange_circle {
+  width: 20.5vw;
+  height: 20.5vw;
+  border-radius: 50%;
+  background-color: #F59C07;
+  position: absolute;
+  top: 7%;
+  left: 13%;
+}
+.chess {
+  width: 100%;
+  height: 44.5%;
+}
+.column_2 {
+  height: 50%;
+}
+.scuare-g {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  margin-right: -4px;
+}
+.scuare-b {
+  width: 40%;
+  height: 100%;
+  background-color: #282F96;
+  display: inline-block;
+  margin-right: -4px;
+}
+.scuare-g2 {
   width: 20%;
+  height: 100%;
+  display: inline-block;
+}
+.scuare-b2 {
+  width: 20%;
+  height: 100%;
+  background-color: #282F96;
+  display: inline-block;
+}
+.head {
+  height: 30.5%;
+  width: 100%;
+  border-bottom: 2px solid black;
+  vertical-align: top;
+}
+.right-o {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  margin-right: -4px;
+}
+.street {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+.circle-o {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  background-color: #F59C07;
+  position: absolute;
+  top: 5%;
+  left: 8.8%;
+
+}
+.street h3 {
+  font-family: Pragmatica;
+  font-size: 7.6vw;
+  color: black;
+  position: absolute;
+  top: 26.5%;
+  left: 2.5%;
+}
+.content2 {
+  width: 100%;
+  height: 69.5%;
+}
+.arrow7 {
+  width: 40.8%;
+  height: 100%;
+  background-color: #282F96;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+}
+.arrow7 img {
+  width: 79%;
+  position: absolute;
+  top: 13.7%;
+  left: 10.5%;
+}
+.right-c {
+  width: 59.2%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  border-left: 2px solid black;
+}
+.street2 h3 {
+  font-family: Pragmatica;
+  font-size: 7.6vw;
+  word-spacing: -45px;
+  color: black;
   position: absolute;
   top: 20%;
-  left: 0;
+  left: 13.5%;
 }
-.square7 {
-  width: 20%;
-  position: absolute;
-  top: 49.8%;
-  left: 20%;
+.street2 {
+  position: relative;
+  width: 100%;
+  height: 36%;
+  border-bottom: 2px solid black;
 }
-.square8 {
-  width: 20%;
-  position: absolute;
-  top: 49.8%;
-  left: 40%;
+.bottom-c {
+  width: 100%;
+  height: 64%;
 }
-.square9 {
-  width: 20%;
-  position: absolute;
-  top: 49.8%;
-  left: 60%;
+.square-b {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  display: inline-block;
+  margin-right: -4px;
 }
-.square10 {
-  width: 20%;
-  position: absolute;
-  top: 49.8%;
-  left: 80%;
+.chess-r {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
 }
+.scuare-g3 {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  margin-right: -4px;
+}
+.scuare-b3 {
+  width: 50%;
+  height: 100%;
+  background-color: #282F96;
+  display: inline-block;
+  margin-right: -4px;
+}
+.list4 {
+  height: 875px;
+}
+.header2 {
+  width: 100%;
+  height: 21%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  vertical-align: top;
+  background: #D1D1D1;
+ }
+ .right_text {
+   height: 100%;
+   width: 55.8%;
+   border-right: 2px solid black;
+   display: inline-block;
+   margin-right: -4px;
+   position: relative;
+ }
+ .left_arrow {
+   height: 100%;
+   width: 44.2%;
+   display: inline-block;
+   background-color: #F59C07;
+   position: relative;
+ }
+ .right_text h3 {
+   font-family: Pragmatica;
+   font-size: 7.6vw;
+   color: black;
+   position: absolute;
+   top: 23%;
+   left: 4.1%;
+ }
+ .left_arrow img {
+   width: 90%;
+   position: absolute;
+   top: 8.5%;
+   left: 5%;
+ }
+ .main4 {
+   height: 48%;
+ }
+ .column1 {
+   height: 59%;
+   width: 100%;
+   background-color: #D1D1D1;
+   border-bottom: 2px solid black;
+   position: relative;
+ }
+
+ .black {
+   width: 13.7%;
+   position: relative;
+   top: 10%;
+   left: 3%;
+ }
+ .orange {
+   width: 13.5%;
+   position: relative;
+   top: 10%;
+   left: 10%;
+ }
+ .grey {
+   width: 13.5%;
+   position: relative;
+   top: 10%;
+   left: 16%;
+ }
+ .blue {
+   width: 13.5%;
+   position: relative;
+   top: 10%;
+   left: 22%;
+ }
+ .orange_2 {
+   width: 13.5%;
+   position: relative;
+   top: 10%;
+   left: 28%;
+ }
+ .column2 {
+   height: 41%;
+   background-color: #282F96;
+   border-bottom: 2px solid black;
+   vertical-align: top;
+ }
+ .right_arrow {
+   display: inline-block;
+   width: 26%;
+   height: 100%;
+   margin-right: -4px;
+   position: relative;
+ }
+ .right_arrow img {
+   width: 89%;
+   position: absolute;
+   top: 17%;
+   left: 8.5%;
+ }
+ .name {
+   display: inline-block;
+   width: 74%;
+   height: 100%;
+   position: relative;
+ }
+ .name h3 {
+   font-family: Pragmatica;
+   font-size: 7.6vw;
+   color: #D1D1D1;
+   position: absolute;
+   top: 20%;
+   left: 2.5%;
+ }
+ .footer {
+   height: 31%;
+   width: 100%;
+   background-color: #D1D1D1;
+   vertical-align: top;
+ }
+ .contacts {
+   width: 35%;
+   height: 100%;
+   display: inline-block;
+   margin-right: -4px;
+   position: relative;
+ }
+ .right_black {
+   width: 65%;
+   height: 100%;
+   background-color: black;
+   display: inline-block;
+   position: relative;
+ }
+ .right_black img {
+   width: 80%;
+   position: absolute;
+   top: 17%;
+   left: 9.5%;
+ }
+ p {
+   font-family: Pragmatica;
+   font-size: 1.7vw;
+   color: black;
+ }
+ .system  {
+   margin: 6%;
+   line-height: 115%;
+   position: absolute;
+   top: 5%;
+ }
+ .number {
+   position: absolute;
+   top: 57%;
+   left: 6%;
+ }
+ .mail {
+   position: absolute;
+   top: 76%;
+   left: 6%;
+ }
