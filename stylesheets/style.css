@@ -8,7 +8,9 @@
 * {
   box-sizing: border-box;
 }
-
+.big_container {
+  min-width: 1500px;
+}
 .list1 {
   height: 915px;
 }
