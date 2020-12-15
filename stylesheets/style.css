@@ -7,9 +7,7 @@
 * {
   box-sizing: border-box;
 }
-/* .all{
-  min-width: 1440px;
-} */
+
 .list1 {
   height: 915px;
 }
@@ -571,7 +569,7 @@
    left: 6%;
  }
 
- @media  (max-width: 479px) {
+ /* @media  (max-width: 479px) {
 
    .header {
      height: 40%;
@@ -582,4 +580,4 @@
    .text {
      font-size: 55px;
    }
- }
+ } */
