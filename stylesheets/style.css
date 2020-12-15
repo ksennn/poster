@@ -7,9 +7,9 @@
 * {
   box-sizing: border-box;
 }
-.all{
+/* .all{
   min-width: 1440px;
-}
+} */
 .list1 {
   height: 915px;
 }
@@ -145,7 +145,7 @@
   border-right: 2px solid black;
   }
 .pattern2 img {
-  width: 100%;
+  max-width: 100%;
 }
 .list2 {
   height: 839px;
@@ -571,15 +571,15 @@
    left: 6%;
  }
 
- @media (max-width: 413px) {
-   .list1 {
-     height: 754px;
-   }
+ @media  (max-width: 479px) {
+
    .header {
-     height: 33.95%;
+     height: 40%;
    }
    .main {
-     height: 66.05%;
+     height: 60%;
    }
-
+   .text {
+     font-size: 55px;
+   }
  }
