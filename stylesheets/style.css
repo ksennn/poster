@@ -373,7 +373,7 @@
   border-left: 2px solid black;
 }
 .street2 h3 {
-  word-spacing: -45px;
+
   color: black;
   position: absolute;
   top: 20%;
@@ -443,7 +443,7 @@
  .right_text h3 {
    position: absolute;
    top: 23%;
-   left: 4.1%;
+   left: 6%;
  }
  .left_arrow img {
    width: 90%;
@@ -520,7 +520,7 @@
  .name h3 {
    color: #D1D1D1;
    position: absolute;
-   top: 25%;
+   top: 24.5%;
    left: 14%;
  }
  .footer {
@@ -569,4 +569,17 @@
    position: absolute;
    top: 76%;
    left: 6%;
+ }
+
+ @media (max-width: 413px) {
+   .list1 {
+     height: 754px;
+   }
+   .header {
+     height: 33.95%;
+   }
+   .main {
+     height: 66.05%;
+   }
+
  }
