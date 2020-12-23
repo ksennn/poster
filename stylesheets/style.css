@@ -222,7 +222,7 @@
   height: 33.33%;
 }
 .black-s {
-  width: 33.33%;
+  width: 33.34%;
   height: 100%;
   background-color: black;
   display: inline-block;
@@ -251,6 +251,9 @@
   position: absolute;
   top: 23.5%;
   left: 31%;
+}
+.ad {
+	display: none;
 }
 .arrow6 img {
   width: 100%;
@@ -431,7 +434,9 @@
   display: inline-block;
   margin-right: -4px;
 }
-
+.adpt {
+	display: none;
+}
 .header2 {
   width: 100%;
   height: 21%;
@@ -598,7 +603,7 @@
 	   padding-bottom: 80%;
 	 }
    .header {
-     height: 40%;
+     height: 46%;
 		 width: 100%;
    }
    .main {
@@ -610,10 +615,26 @@
    }
 
 	 .rectangle_blue {
-		 height: 40%;
+		 height: 43%;
+   }
+	 .text {
+	   font-size: 11.1vw;
+	 }
+	 .text h1 {
+		 top: 16%;
+	 }
+	 .arrow1 {
+	   width: 27%;
+	   top: 21%;
+	   left: 65%;
 	 }
    .rectangle_orange {
-		 height: 60%;
+		 height: 57%;
+	 }
+	 .text h2 {
+	   top: 3%;
+	   color: black;
+		 line-height: 90%;
 	 }
 	 .arrow2 {
 		 display: none;
@@ -621,10 +642,233 @@
 	 .arrow3 {
 		 display: none;
 	 }
+	 .main {
+	 	top: 46%;
+		height: 72%;
+	 }
 	 .container {
-		 width: 60%;
+		 width: 66%;
 	 }
 	 .right_rectangle {
-		 width: 40%;
+		 width: 34%;
 	 }
- }
+	 .pattern {
+	   width: 80%;
+	   top: 8%;
+	   right: 9.5%;
+	 }
+	 .circle1 {
+	   width: 28vw;
+	   height: 28vw;
+		 left: 50%;
+   }
+	 .circle2 {
+	   width: 28vw;
+	   height: 28vw;
+		 left: 4%;
+   }
+	 .content {
+		 height: 81%;
+	 }
+	 .bottom_block {
+	   height: 19%;
+	 }
+	 .text h4 {
+	   top: 81%;
+	   left: 27.2%;
+	 }
+	 .pattern2 {
+	   width: 25%;
+		 height: 19%;
+		 overflow: hidden;
+	   }
+	 .pattern2 img {
+	   width: 115%;
+	 }
+	 .black_rectangl {
+	   height: 28.5%;
+	 	 top: 17.5%;
+	 }
+	 .text2 {
+	   font-size: 15vw;
+	 }
+	 .time h3 {
+	   top: 26%;
+	   left: 57%;
+	 }
+	 .arrow4 {
+	   width: 40%;
+	   top: 20%;
+	   left: 10%;
+	 }
+	 .arrow5 {
+	   display: none;
+	 }
+	 .main2 {
+	   height: 63%;
+	 	 top: 46%;
+	 }
+	 .s- {
+	  display: none;
+   }
+	 .s-b {
+		background: #282F96;
+	 }
+	 .square1 {
+		 width: 25%;
+	 }
+	 .square2 {
+	   width: 25%;
+	 }
+	 .header_orange {
+	   height: 24%;
+	   top: 9%;
+	 }
+	 .arrow6 {
+    top: 20%;
+		left: 47%;
+	 }
+	 .adp {
+		 display: none;
+	 }
+	 .ad {
+		 display: block;
+	 }
+	 .time2 h3 {
+	   top: 20%;
+	   left: 3%;
+	 }
+
+	 .main3 {
+	  height: 72%;
+	 	top: 33%;
+	 }
+	 .left2 {
+	   width: 100%;
+	 }
+	 .black_square {
+	   display: none;
+	 }
+	 .chess {
+	   display: none;
+	 }
+	 .circle-o {
+	   width: 13vw;
+	   height: 13vw;
+	   top: 4%;
+	   left: 6%;
+   }
+	 .street h3 {
+	   top: 24%;
+	   left: -5%;
+	 }
+	 .arrow7 {
+	   width: 38%;
+	 }
+	 .arrow7 img {
+	   width: 83%;
+	   top: 10%;
+	   left: 8%;
+	 }
+	 .right-c {
+	   width: 62%;
+	 }
+	 .street2 h3 {
+	   top: 13%;
+	   left: 13%;
+	 }
+	 .square-b {
+	   width: 39%;
+	 }
+	 .chess-r {
+	   width: 41%;
+	 }
+	 .scuare-b3 {
+	   width: 50%;
+	   height: 100%;
+	   background-color: #282F96;
+	   display: inline-block;
+	   margin-right: -4px;
+	 }
+   .adpt {
+		 position: absolute;
+		 left: 80%;
+		 height: 32%;
+		 width: 20%;
+	 }
+	 .header2 {
+	   height: 21%;
+	 	 top: 5%;
+	  }
+	  .right_text {
+	    height: 100%;
+	    width: 100%;
+	    border-right: 0px;
+	    position: relative;
+			left: -3%;
+			top: -1%;
+	  }
+	  .left_arrow {
+	   display: none;
+	  }
+	  .right_text h3 {
+	    position: absolute;
+	    top: 23%;
+	    left: 6%;
+	  }
+	  .left_arrow img {
+	    display: none;
+	  }
+		.main4 {
+	   height: 55%;
+	 	 top: 26%;
+	  }
+	  .column1 {
+	    height: 59%;
+	  }
+	  .black {
+	    width: 20%;
+	    top: 13%;
+	    left: 1.8%;
+	  }
+	  .orange {
+	    width: 20%;
+	    top: 13%;
+	    left: 6.8%;
+	  }
+	  .grey {
+	    width: 20%;
+	    top: 13%;
+	    left: 12%;
+	  }
+	  .blue {
+	    width: 20%;
+	    top: 13%;
+	    left: 16.8%;
+	  }
+	  .orange_2 {
+	    display: none;
+	  }
+		.column2 {
+	    height: 40%;
+	  }
+	  .right_arrow img {
+	   display: none;
+	  }
+	  .name {
+	    width: 100%;
+	  }
+	  .name h3 {
+	    top: -80%;
+	    left: 2.5%;
+	  }
+		.footer {
+	    height: 25%;
+	    width: 100%;
+	 	  top: 80.5%;
+	  }
+	  .contacts {
+	    width: 35%;
+	  }
+
+}
