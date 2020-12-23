@@ -76,6 +76,9 @@
 	top: 32.4%;
   width: 100%;
 }
+.text_adp {
+	display: none;
+}
 .container {
 	height: 100%;
   background:#D1D1D1;
@@ -160,6 +163,9 @@
   top: 6.5%;
   right: 16.7%;
 }
+.bottom_adp {
+	display: none;
+}
 
 .black_rectangl {
   height: 26.5%;
@@ -237,7 +243,9 @@
   margin-right: -4px;
 }
 
-
+.header_adp {
+	display: none;
+}
 .header_orange {
   height: 27.4%;
 	width: 100%;
@@ -254,6 +262,9 @@
 }
 .ad {
 	display: none;
+}
+.ad6 {
+  display: none;
 }
 .arrow6 img {
   width: 100%;
@@ -437,6 +448,9 @@
 .adpt {
 	display: none;
 }
+.chess_adp {
+	display: none;
+}
 .header2 {
   width: 100%;
   height: 21%;
@@ -575,6 +589,9 @@
    position: absolute;
    top: 17%;
    left: 9.5%;
+ }
+ .ad_p {
+	 display: none;
  }
  p {
    font-family: 'Pragmatica', arial;
@@ -814,7 +831,7 @@
 	  .right_text h3 {
 	    position: absolute;
 	    top: 23%;
-	    left: 6%;
+	    left: 6.2%;
 	  }
 	  .left_arrow img {
 	    display: none;
@@ -865,10 +882,408 @@
 		.footer {
 	    height: 25%;
 	    width: 100%;
-	 	  top: 80.5%;
+	 	  top: 80.3%;
 	  }
 	  .contacts {
 	    width: 35%;
 	  }
 
 }
+ @media (min-width: 320px) and (max-width: 419px) {
+	 .list {
+	   padding-bottom: 123.2%;
+	 }
+	 .header {
+	 	height: 50%;
+	 }
+   .rectangle_blue {
+	   height: 53%;
+     border-bottom: 1px solid black;
+	 }
+	 .arrow1 {
+	   width: 36%;
+	   top: 53%;
+	   left: 4%;
+	 }
+	 .arrow2 {
+	   width: 36%;
+	   top: 53%;
+	   left: 50%;
+	 }
+	 .text {
+	   font-size: 13.5vw;
+	 }
+	 .text h1 {
+	   left: 3.5%;
+	   top: 8%;
+	 }
+	 .rectangle_orange {
+	   height: 47%;
+	   border-bottom: 1px solid black;
+	 }
+	 .text h2 {
+	   left: 3.5%;
+	   top: 3.5%;
+   }
+	 .text_adp {
+		 width: 100%;
+		 height: 14%;
+		 display: block;
+		 position: absolute;
+     top: 50%;
+		 border-bottom: 1px solid black;
+		 background-color: #D1D1D1;
+   }
+	 .text_adp h3 {
+		 position: absolute;
+		 top: 11%;
+		 left: 3.5%;
+	 }
+	 .main {
+	 	 height: 68.5%;
+	 	 top: 64%;
+	 }
+	 .container {
+	 	 height: 100%;
+	   width: 50%;
+		 position: relative;
+	 }
+	 .content {
+	   height: 100%;
+		 width: 100%;
+	   border-bottom: 0px;
+		 position: absolute;
+	 }
+	 .text_ad {
+	  display: none;
+	 }
+	 .circle1 {
+	   width: 36vw;
+	   height: 36vw;
+		 position: relative;
+	   top: 5%;
+	   left: 13%;
+	 }
+	 .circle2 {
+	   width: 36vw;
+	   height: 36vw;
+	   position: relative;
+	   top: 9%;
+	   left: 13%;
+	 }
+	 .arrow3 {
+	   display: none;
+	 }
+	 .bottom_block {
+	   display: none;
+	 }
+	 .right_rectangle {
+	   width: 50%;
+	   border-left: 1px solid black;
+	 }
+	 .pattern {
+	   width: 78%;
+	   top: 9%;
+	   right: 11%;
+	 }
+	 .bottom_adp {
+		 height: 15.5%;
+		 width: 100%;
+		 border-top: 1px solid black;
+		 background-color: #D1D1D1;
+		 position: absolute;
+		 top: 132.5%;
+		 display: block;
+	 }
+	 .pattern_adp {
+		 width: 43%;
+		 height: 100%;
+		 display: inline-block;
+		 margin-right: -4px;
+	 }
+	 .right_adp {
+		 width: 57%;
+		 height: 100%;
+		 display: inline-block;
+		 border-left: 1px solid black;
+	 }
+	 .right_adp h4 {
+		 position: absolute;
+     top: 15%;
+		 left: 49%;
+	 }
+	 .black_rectangl {
+	   height: 18.5%;
+	 	 width: 100%;
+	 	 top: 48.1%;
+	 }
+	 .text2 {
+	   font-size: 18vw;
+	 }
+	 .time h3 {
+	   top: 21%;
+	   left: 47.5%;
+	 }
+	 .arrow4 {
+	   width: 40%;
+	   top: 20%;
+	   left: 3.2%;
+	 }
+	 .arrow5 {
+	   display: none;
+	 }
+	 .s- {
+		 display: none;
+	 }
+	 .s2- {
+		 display: none;
+	 }
+	 .main2 {
+	   height: 54.9%;
+	 	 top: 66.5%;
+	 }
+   .column_1 {
+	   height: 33.33%;
+	 }
+	 .square1 {
+		 width: 33.3%;
+	 }
+	 .square2 {
+	   width: 33.3%;
+	 }
+	 .header_adp {
+		 height: 19.5%;
+		 width: 100%;
+		 display: block;
+		 border-top: 1px solid black;
+		 position: absolute;
+		 top: 21.3%;
+	 }
+	 .arrow_left {
+		 height: 100%;
+		 width: 47%;
+		 display: inline-block;
+		 margin-right: -4px;
+		 border-right: 1px solid black;
+		 background-color: #D1D1D1;
+	 }
+	 .arrow_left img {
+		 position: absolute;
+		 top: 17%;
+		 left: 3%;
+	 }
+	 .time_adp {
+		 height: 100%;
+		 width: 53%;
+		 display: inline-block;
+		 background-color: #F59C07;
+	 }
+	 .time_adp h3 {
+		 position: absolute;
+		 top: 16%;
+		 right: 3%;
+	 }
+	 .header_orange {
+	   height: 21.5%;
+	   top: 40.5%;
+	   border-top: 1px solid black;
+	   border-bottom: 1px solid black;
+	 }
+	 .arrow6 {
+		 width: 95%;
+		 position: absolute;
+		 top: 16%;
+		 left: 3%;
+	 }
+   .ad6 {
+		 display: block;
+   }
+	 .adp {
+		 display: none;
+	 }
+	 .time2 h3 {
+	   display: none;
+	 }
+	 .main3 {
+	   height: 32.5%;
+	 	 top: 62%;
+	 }
+	 .left2 {
+	   width: 100%;
+	   height: 100%;
+	 }
+	 .black_square {
+	   display: none;
+	 }
+	 .chess {
+	  display: none;
+	 }
+	 .head {
+	   height: 52%;
+	   width: 100%;
+	   border-bottom: 1px solid black;
+	 }
+	 .right-o {
+	   width: 20%;
+	 }
+	 .street {
+	   width: 80%;
+	 }
+	 .circle-o {
+	   width: 13vw;
+	   height: 13vw;
+	   top: 10%;
+	   left: 6%;
+   }
+	 .street h3 {
+	   top: 23%;
+	   left: 7%;
+	 }
+	 .content2 {
+	   height: 47%;
+	 }
+	 .arrow7 {
+	   width: 33.5%;
+		 height: 100%;
+	   background-color: black;
+	 }
+	 .arrow7 img {
+	   display: none;
+	 }
+	 .right-c {
+	   width: 66%;
+	   border-left: 1px solid black;
+	 }
+	 .street2 h3 {
+	   top: 40%;
+	   left: 11%;
+		 word-spacing: -10px;
+	 }
+	 .street2 {
+	   height: 36%;
+	   border-bottom: 0;
+	 }
+	 .bottom-c {
+	   display: none;
+	 }
+   .chess_adp {
+		 display: block;
+		 width: 100%;
+		 height: 31.5%;
+		 position: absolute;
+		 top: 94%;
+		 border-top: 1px solid black;
+		 background-color: #D1D1D1;
+	 }
+	 .column_2 {
+	   height: 50%;
+	 }
+	 .scuare-g {
+	   width: 20%;
+	 }
+	 .scuare-b {
+	   width: 20%;
+	 }
+	 .header2 {
+	   height: 14.5%;
+	 	 top: 25.5%;
+	   border-top: 1px solid black;
+	   border-bottom: 1px solid black;
+	  }
+	  .right_text {
+			width: 100%;
+	    border-right: 0;
+	  }
+	  .left_arrow {
+	    display: none;
+	  }
+	  .right_text h3 {
+	    top: 19%;
+	    left: 4%;
+	  }
+		.main4 {
+	    height: 43%;
+	 	  width: 100%;
+	 	  position: absolute;
+	 	  top: 40%;
+	  }
+	  .column1 {
+	    height: 60%;
+	    width: 100%;
+	    border-bottom: 1px solid black;
+	    position: relative;
+	  }
+
+	  .black {
+	    display: none;
+	  }
+	  .orange {
+	    width: 25%;
+	    position: relative;
+	    top: 12%;
+	    left: 5%;
+	  }
+	  .grey {
+	    width: 25%;
+	    position: relative;
+	    top: 12%;
+	    left: 11.5%;
+	  }
+	  .blue {
+	    width: 25%;
+	    position: relative;
+	    top: 12%;
+	    left: 18%;
+	  }
+	  .orange_2 {
+	    display: none;
+	  }
+	  .column2 {
+	    height: 37%;
+	    border-bottom: 1px solid black;
+	  }
+	  .right_arrow {
+	    display: none;
+	  }
+	  .name {
+	    width: 100%;
+	  }
+	  .name h3 {
+	    top: 18%;
+	    left: 3%;
+	  }
+		.footer {
+	    height: 19%;
+	 	  top: 81.8%;
+	  }
+	  .contacts {
+	    width: 45%;
+	  }
+	  .right_black {
+	    width: 55%;
+	  }
+	  .pat {
+	    display: none;
+	  }
+		.right_black img {
+			width: 80%;
+			left:
+		}
+		.ad_p  {
+			display: block;
+		}
+	  p {
+	    font-size: 2.5vw;
+	  }
+	  .system  {
+	    margin: 7.5%;
+	    top: 1%;
+	  }
+	  .number {
+	    position: absolute;
+	    left: 7.5%;
+	  }
+	  .mail {
+	    left: 7.5%;
+	  }
+ }
