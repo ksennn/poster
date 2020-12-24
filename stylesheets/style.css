@@ -22,6 +22,7 @@
 	height: 32.5%;
 	width: 100%;
   position: absolute;
+	z-index: 5;
 }
 
 .rectangle_blue {
@@ -34,9 +35,8 @@
 .arrow1 {
   width: 24.6%;
   height: auto;
-  max-height: 120px;
   position: absolute;
-  top: 13.3%;
+  top: 11%;
   left: 45.1%;
 }
 .arrow2 {
@@ -44,9 +44,31 @@
   height: auto;
   max-height: 120px;
   position: absolute;
-  top: 13.3%;
+  top: 11%;
   left: 73.5%;
 }
+.arrow1 img {
+	animation: blink 1.5s infinite;
+}
+.arrow2 img {
+	animation: blink 1.5s infinite;
+}
+@keyframes blink {
+	0% {
+		 filter:  sepia(200%) saturate(200%);
+	}
+	25% {
+     filter: none;
+  }
+  50% {
+     filter: brightness(10);
+		 transform: scale(1.03);
+  }
+  75% {
+    filter: none;
+  }
+}
+
 .text {
   font-family: 'Pragmatica', arial;
   font-size: 7.9vw;
@@ -58,7 +80,7 @@
   color: #D1D1D1;
 }
 .rectangle_orange {
-  height: 46%;
+  height: 45.5%;
   width: 100%;
   background: #F59C07;
   border-bottom: 2px solid black;
@@ -73,7 +95,7 @@
 .main {
 	height: 67.5%;
   position: absolute;
-	top: 32.4%;
+	top: 32.3%;
   width: 100%;
 }
 .text_adp {
@@ -106,6 +128,54 @@
   position: absolute;
   top: 33%;
   left: 45%;
+	z-index: 7;
+
+}
+.circle1:hover {
+  transform: scale(0.3);
+	transition: 1.5s;
+	height: 19vw;
+	width: 19vw;
+}
+.circle2:hover {
+  transform: scale(0.3);
+	transition: 1.5s;
+	height: 19vw;
+	width: 19vw;
+}
+.flower_ {
+	position: absolute;
+	top: 26%;
+	left: 41%;
+	z-index: 3;
+}
+.flower_2 {
+	position: absolute;
+	top: 26%;
+	left: 1%;
+	z-index: 3;
+}
+@keyframes rotate {
+	0% {
+    transform: rotate(0deg);
+
+  }
+  50% {
+    transform: rotate(180deg);
+
+  }
+  100% {
+    transform: rotate(360deg);
+
+  }
+}
+.flower_ img {
+	width: 85%;
+	animation: rotate 2.5s infinite linear;
+}
+.flower_2 img {
+	width: 85%;
+	animation: rotate 2.5s infinite linear;
 }
 .circle2 {
   width: 19vw;
@@ -115,12 +185,31 @@
   position: absolute;
   top: 33%;
   left: 5%;
+	z-index: 5;
 }
 .arrow3 {
   width: 26%;
   position: absolute;
   left: 68%;
   top: 7%;
+	animation: move 1.5s infinite;
+}
+@keyframes move {
+	0% {
+
+	}
+	25% {
+		 transform: translateY(10px) translateX(-7px);
+
+  }
+  50% {
+	   transform: translateY(0px);
+
+  }
+  75% {
+		transform: translateY(10px) translateX(-7px);
+
+  }
 }
 .bottom_block {
   height: 26%;
@@ -143,6 +232,7 @@
   margin-right: -4px;
   border-right: 2px solid black;
 	position: absolute;
+	animation: blink 1s infinite;
   }
 .pattern2 img {
   width: 100%;
@@ -163,6 +253,34 @@
   top: 6.5%;
   right: 16.7%;
 }
+.anim2 {
+	animation: movee 4s infinite linear;
+}
+.anim {
+	width: 100%;
+	overflow: hidden;
+	z-index: 0;
+	animation: move2 4s infinite linear;
+	animation-delay: 2s;
+	transform: translateY(-210%);
+}
+@keyframes move2 {
+	0% {
+     transform: translateY(-209%);
+	}
+  100% {
+		transform: translateY(2%);
+
+  }
+}
+@keyframes movee {
+	0% { transform: translateY(-110%)
+
+	}
+  100% {
+		transform: translateY(103%);
+}
+ }
 .bottom_adp {
 	display: none;
 }
@@ -189,12 +307,14 @@
   position: absolute;
   top: 25%;
   left: 3.2%;
+	animation: blink 1.5s infinite;
 }
 .arrow5 {
   width: 26.7%;
   position: absolute;
   top: 25%;
   left: 36%;
+	animation: blink 1.5s infinite;
 }
 .main2 {
   height: 63%;
@@ -242,7 +362,10 @@
   display: inline-block;
   margin-right: -4px;
 }
-
+.black-s:hover {
+	background-color: white;
+	transition: 0.5s;
+}
 .header_adp {
 	display: none;
 }
@@ -268,6 +391,13 @@
 }
 .arrow6 img {
   width: 100%;
+}
+.time2 {
+	height: 100%;
+	width: 30%;
+	position: absolute;
+	z-index: 5;
+	background-color: #F59C07;
 }
 .time2 h3 {
   color: black;
@@ -370,8 +500,21 @@
   position: absolute;
   top: 5%;
   left: 8.8%;
-
+	z-index: 2;
+  animation: pulsate 1s infinite;
 }
+@keyframes pulsate {
+	0%  {
+		transform: scale(1,1);
+	}
+	25% {
+		transform: scale(1.1,1.1);
+	}
+	100%  {
+		transform: scale(1,1);
+ }
+}
+
 .street h3 {
   color: black;
   position: absolute;
@@ -395,6 +538,25 @@
   position: absolute;
   top: 13.7%;
   left: 10.5%;
+	animation: mov 1.5s infinite linear;
+	animation-name: blink;
+}
+@keyframes mov {
+	0% {
+
+	}
+	25% {
+		 transform: translateY(10px) translateX(-7px);
+
+  }
+  50% {
+	   transform: translateY(0px);
+
+  }
+  75% {
+		transform: translateY(10px) translateX(-7px);
+
+  }
 }
 .right-c {
   width: 59.2%;
@@ -425,8 +587,12 @@
   height: 100%;
   background-color: black;
   display: inline-block;
+	border-right: 2px solid black;
   margin-right: -4px;
+	transition: 0.3s linear;
 }
+.square-b:hover {background: #F59C07; filter: brightness(1.5);}
+
 .chess-r {
   width: 50%;
   height: 100%;
@@ -475,17 +641,37 @@
    display: inline-block;
    background-color: #F59C07;
    position: relative;
+
  }
  .right_text h3 {
    position: absolute;
    top: 23%;
    left: 6%;
+
  }
  .left_arrow img {
    width: 90%;
    position: absolute;
    top: 8.5%;
    left: 5%;
+
+ }
+ @keyframes pointer {
+ 	0% {
+
+ 	}
+ 	25% {
+ 		 transform: translateX(-10px);
+
+   }
+   50% {
+ 	   transform: translateX(0);
+
+   }
+   75% {
+ 		transform:  translateX(-10px);
+
+   }
  }
  .main4 {
    height: 55%;
@@ -504,32 +690,54 @@
  .black {
    width: 13.7%;
    position: relative;
-   top: 14%;
+   top: 16%;
    left: 3%;
+	 animation: bla 3s infinite linear;;
  }
+ @keyframes bla {
+  0% {
+    transform: rotate(0deg);
+
+  }
+  50% {
+    transform: rotate(180deg);
+
+  }
+  100% {
+    transform: rotate(360deg);
+
+  }
+}
  .orange {
    width: 13.5%;
    position: relative;
-   top: 14%;
+   top: 16%;
    left: 10%;
+	 transform: rotate(40deg);
+	 animation: bla 3.5s infinite linear;
  }
  .grey {
    width: 13.5%;
    position: relative;
-   top: 14%;
+   top: 16%;
    left: 16%;
+	 transform: rotate(-50deg);
+	 animation: bla 3.5s infinite linear;
  }
  .blue {
    width: 13.5%;
    position: relative;
-   top: 14%;
+   top: 16%;
    left: 22%;
+	 transform: rotate(180deg);
+	 animation: bla 2.5s infinite linear;
  }
  .orange_2 {
    width: 13.5%;
    position: relative;
-   top: 14%;
+   top: 16%;
    left: 28%;
+	 animation: bla 3s infinite linear;
  }
  .column2 {
    height: 45%;
@@ -543,7 +751,9 @@
    height: 100%;
    margin-right: -4px;
    position: relative;
+	 animation: blink 1.5s infinite;
  }
+
  .right_arrow img {
    width: 100%;
    position: absolute;
