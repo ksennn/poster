@@ -374,9 +374,55 @@
   display: inline-block;
   margin-right: -4px;
 }
-.black-s:hover {
-	background-color: white;
-	transition: 0.5s;
+@keyframes change {
+	0% {
+		background-color: black;
+	}
+	90% {
+		background-color: black;
+	}
+	100% {
+		background-color: white;
+	}
+}
+.bl1 {
+	animation: change 1.5s infinite linear;
+}
+.bl2 {
+	animation: change 1.5s infinite linear;
+	animation-delay: 0.5s;
+}
+.bl3 {
+	animation: change 1.5s infinite linear;
+	animation-delay: 0.6s;
+}
+.bl4 {
+	animation: change 1.5s infinite linear;
+	animation-delay: 1s;
+}
+.bl5 {
+	animation: change 1.5s infinite linear;
+	animation-delay: 0.9s;
+}
+.bl6 {
+	animation: change 1.5s infinite linear;
+	animation-delay: 0.7s;
+}
+.bl7 {
+	animation: change 1.5s infinite linear;
+	animation-delay: 1.5s;
+}
+.bl8 {
+	animation: change 1s infinite linear;
+	animation-delay: 0.4s;
+}
+.bl9 {
+	animation: change 2s infinite linear;
+	animation-delay: 1s;
+}
+.bl10 {
+	animation: change 1.5s infinite linear;
+	animation-delay: 0.3s;
 }
 .header_adp {
 	display: none;
