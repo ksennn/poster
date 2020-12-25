@@ -438,7 +438,7 @@
 }
 .arrow6 {
   position: absolute;
-  top: 23.5%;
+  top: 22%;
   left: 31%;
 }
 .ad {
@@ -449,6 +449,7 @@
 }
 .arrow6 img {
   width: 100%;
+	animation: pointer 1.8s infinite linear;
 }
 .time2 {
 	height: 100%;
@@ -919,6 +920,7 @@
    position: absolute;
    top: 17%;
    left: 9.5%;
+	 animation: blink 1.5s infinite linear;
  }
  .ad_p {
 	 display: none;
@@ -1092,8 +1094,8 @@
 	   top: 9%;
 	 }
 	 .arrow6 {
-    top: 20%;
-		left: 47%;
+    top: 15%;
+		left: 45%;
 	 }
 	 .adp {
 		 display: none;
